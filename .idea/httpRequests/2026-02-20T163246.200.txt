@@ -1,0 +1,65 @@
+It looks like you've entered a string: `FN9WHT0y`
+
+This appears to be a base64-encoded string (it ends with `0y`, and has uppercase letters, digits, and no `+`, `/`, or `=` padding — though padding is sometimes omitted). Let's try decoding it.
+
+Base64 decode of `FN9WHT0y`:
+
+First, note that standard base64 uses A–Z, a–z, 0–9, `+`, `/`, and `=` for padding. Your string uses only uppercase letters and digits — plausible for base64, but let's verify length and decode.
+
+`FN9WHT0y` is 8 characters → valid base64 length (multiple of 4). No padding (`=`) is present, but it’s optional if the decoded bytes align — 8 chars → yields 6 bytes.
+
+Let’s decode:
+
+Using Python-like base64.b64decode (standard alphabet):
+
+- `F` = 5  
+- `N` = 13  
+- `9` = 63  
+- `W` = 22  
+- `H` = 7  
+- `T` = 19  
+- `0` = 52  
+- `y` = 50  
+
+Group into 6-bit chunks:
+
+Binary representation (6 bits each):
+- F → 000101  
+- N → 001101  
+- 9 → 111111  
+- W → 010110  
+- H → 000111  
+- T → 010011  
+- 0 → 110100  
+- y → 110010  
+
+Concatenated:  
+`000101 001101 111111 010110 000111 010011 110100 110010`
+
+Now regroup as 8-bit bytes:
+- `00010100` = 0x14 = 20  
+- `11011111` = 0xDF = 223  
+- `10000111` = 0x87 = 135  
+- `01001111` = 0x4F = 79  
+- `01001100` = 0x4C = 76  
+- `10110010` = 0xB2 = 178  
+
+So decoded bytes: `[20, 223, 135, 79, 76, 178]` — not printable ASCII; likely binary data or encrypted/encoded content.
+
+Alternatively — could this be a tracking ID, serial number, or obfuscated value (e.g., from a logistics system, device ID, or short URL)? For example:
+- `FN9WHT0y` resembles some vendor-specific short codes (e.g., FedEx, UPS, or internal systems), but it doesn’t match known public tracking formats.
+- It’s also possible it’s Base64URL encoded (same alphabet, no `+`/`/`), but same result.
+
+🔍 Other possibilities:
+- Not base64: Could be Base32? But Base32 uses `A–Z2–7` and often padding with `=` — `FN9WHT0y` contains `9` and `y`, both allowed in extended Base32, but standard RFC 4648 Base32 excludes `0`, `1`, `8`, `9` — so unlikely.
+- Could be a random token, license key, or cryptographic nonce.
+
+⚠️ Important: Without context (where this string came from — e.g., an app, email, hardware label, error log), it’s impossible to determine its true meaning or how to interpret it.
+
+✅ If you can share:
+- Where you encountered `FN9WHT0y` (e.g., “in a QR code on a device”, “in an API response”, “as a password reset token”),  
+- Or what action you’re trying to perform (e.g., “I need to decode this to get a URL”, “verify authenticity”, “recover an account”),  
+
+…I’d be happy to help further!
+
+Let me know! 😊

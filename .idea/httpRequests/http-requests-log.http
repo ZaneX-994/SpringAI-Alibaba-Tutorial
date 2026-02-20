@@ -1,0 +1,9 @@
+GET http://localhost:8001/hello/dochat?msg=FN9WHT0y
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-20T163246.200.txt
+
+###
+
