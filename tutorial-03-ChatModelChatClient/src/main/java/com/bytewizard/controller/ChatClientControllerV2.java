@@ -28,4 +28,4 @@ public class ChatClientControllerV2 {
         return chatModel.call(msg);
     }
 
-}
+    }

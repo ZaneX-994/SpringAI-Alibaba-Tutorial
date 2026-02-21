@@ -14,6 +14,7 @@
         <module>tutorial-01-HelloWorld</module>
         <module>tutorial-02-ollama</module>
         <module>tutorial-03-ChatModelChatClient</module>
+        <module>tutorial-04-StreamingOutput</module>
     </modules>
 
 

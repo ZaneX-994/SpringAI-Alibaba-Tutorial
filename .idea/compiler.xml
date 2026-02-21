@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tutorial-01-HelloWorld" />
         <module name="tutorial-03-ChatModelChatClient" />
+        <module name="tutorial-04-StreamingOutput" />
+        <module name="tutorial-01-HelloWorld" />
         <module name="tutorial-02-ollama" />
       </profile>
     </annotationProcessing>

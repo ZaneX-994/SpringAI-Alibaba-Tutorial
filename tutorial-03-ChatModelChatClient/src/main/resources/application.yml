@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: SS2-02-ollama
+    name: SS3-02-ChatModelChatClient
 
   ai:
     dashscope:
