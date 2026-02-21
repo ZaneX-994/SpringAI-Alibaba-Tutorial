@@ -1,0 +1,18 @@
+server:
+  port: 8003
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SS2-02-ollama
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+
+
