@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: SS2-02-ollama
+    name: SAA-02-ollama
 
   ai:
     dashscope:

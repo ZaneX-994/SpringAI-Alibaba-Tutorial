@@ -1,5 +1,5 @@
 server:
-  port: 8003
+  port: 8005
 
   servlet:
     encoding:
@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: SAA-02-ChatModelChatClient
+    name: SAA-05-ChatPrompt
 
   ai:
     dashscope:

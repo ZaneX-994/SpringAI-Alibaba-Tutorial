@@ -15,6 +15,7 @@
         <module>tutorial-02-ollama</module>
         <module>tutorial-03-ChatModelChatClient</module>
         <module>tutorial-04-StreamingOutput</module>
+        <module>tutorial-05-ChatPrompt</module>
     </modules>
 
 

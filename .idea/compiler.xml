@@ -9,6 +9,7 @@
         <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-04-StreamingOutput" />
         <module name="tutorial-01-HelloWorld" />
+        <module name="tutorial-05-ChatPrompt" />
         <module name="tutorial-02-ollama" />
       </profile>
     </annotationProcessing>

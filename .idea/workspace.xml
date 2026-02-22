@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/java/com/bytewizard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/java/com/bytewizard/controller/PromptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-01-HelloWorld/src/test/java/com/bytewizard/configTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-01-HelloWorld/src/test/java/com/bytewizard/configTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-01-HelloWorld/target/test-classes/com/bytewizard/configTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-01-HelloWorld/target/test-classes/com/bytewizard/configTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/java/com/bytewizard/config/SaaLLMConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/java/com/bytewizard/controller/ChatClientControllerV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/java/com/bytewizard/controller/ChatClientControllerV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-01-HelloWorld/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-01-HelloWorld/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-02-ollama/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-02-ollama/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/application.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/config/SaaLLMConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/config/SaaLLMConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/controller/StreamOutputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/java/com/bytewizatd/controller/StreamOutputController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,11 +97,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application (1).executor": "Run",
     "Spring Boot.Application (2).executor": "Run",
+    "Spring Boot.Application (3).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.application.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-03-ChatModelChatClient/src/main/resources",
+    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-05-ChatPrompt/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,13 +117,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bytewizard" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.application">
+  <component name="RunManager" selected="Spring Boot.Application (3)">
     <configuration name="configTest.compareDashScopeApis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-01-HelloWorld" />
       <extension name="coverage">
@@ -137,16 +136,6 @@
       <option name="PACKAGE_NAME" value="com.bytewizard" />
       <option name="MAIN_CLASS_NAME" value="com.bytewizard.configTest" />
       <option name="METHOD_NAME" value="compareDashScopeApis" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="configTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorial-01-HelloWorld" />
-      <option name="PACKAGE_NAME" value="com.bytewizard" />
-      <option name="MAIN_CLASS_NAME" value="com.bytewizard.configTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,6 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tutorial-05-ChatPrompt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytewizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial-01-HelloWorld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tutorial-04-StreamingOutput" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizatd.application" />
@@ -193,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.application" />
         <item itemvalue="JUnit.configTest.compareDashScopeApis" />
         <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="Spring Boot.Application (1)" />
-        <item itemvalue="JUnit.configTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +228,7 @@
       <workItem from="1771571574475" duration="2037000" />
       <workItem from="1771573633622" duration="198000" />
       <workItem from="1771573998337" duration="3032000" />
-      <workItem from="1771640966925" duration="10965000" />
+      <workItem from="1771640966925" duration="14493000" />
     </task>
     <servers />
   </component>
