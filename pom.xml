@@ -16,6 +16,7 @@
         <module>tutorial-03-ChatModelChatClient</module>
         <module>tutorial-04-StreamingOutput</module>
         <module>tutorial-05-ChatPrompt</module>
+        <module>tutorial-06-PromptTemplate</module>
     </modules>
 
 

@@ -11,6 +11,8 @@ SpringAIAlibaba-Tutorial/               # 父工程
 ├── tutorial-02-ollama/
 ├── tutorial-03-ChatModelChatClient/
 ├── tutorial-04-StreamingOutput/
+├── tutorial-05-ChatPrompt/
+├── tutorial-06-PromptTemplate/
 ├── 后续添加更多模块...
 └── README.md                           # 项目说明文档
 ````
