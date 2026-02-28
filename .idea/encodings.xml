@@ -15,5 +15,9 @@
     <file url="file://$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial-08-Persistent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -17,6 +17,8 @@
         <module>tutorial-04-StreamingOutput</module>
         <module>tutorial-05-ChatPrompt</module>
         <module>tutorial-06-PromptTemplate</module>
+        <module>tutorial-07-StructuredOutput</module>
+        <module>tutorial-08-Persistent</module>
     </modules>
 
 
@@ -26,7 +28,7 @@
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>3.5.5</spring-boot.version>
+        <spring-boot.version>3.4.5</spring-boot.version>
         <spring-ai.version>1.0.0</spring-ai.version>
         <SprintAIAlibaba.version>1.0.0.2</SprintAIAlibaba.version>
     </properties>

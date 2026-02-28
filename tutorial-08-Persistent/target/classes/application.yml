@@ -1,0 +1,31 @@
+server:
+  port: 8008
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-08-Persistent
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+
+  # ====redis config====
+  data:
+    redis:
+      username: default
+      host: localhost
+      password: "123456"
+      port: 6379
+      database: 0
+      connect-timeout: 3
+      timeout: 2
+
+
+
+

@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/java/com/bytewizard/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/java/com/bytewizard/controller/PromptTemplateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/resources/prompttemplate/bytewizard-template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/controller/StructuredOutputController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/records/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/records/StudentRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/ConfigPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/RedisMemoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/controller/ChatMemory4RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/test/java/com/bytewizard/RedisConnectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -82,6 +91,7 @@
   "keyToString": {
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
+    "JUnit.RedisConnectionTest.test.executor": "Run",
     "JUnit.configTest.compareDashScopeApis.executor": "Run",
     "JUnit.configTest.contextLoads.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -97,11 +107,12 @@
     "Spring Boot.Application (2).executor": "Run",
     "Spring Boot.Application (3).executor": "Run",
     "Spring Boot.Application (4).executor": "Run",
+    "Spring Boot.Application (6).executor": "Run",
     "Spring Boot.Application.executor": "Run",
     "Spring Boot.application.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-06-PromptTemplate/src/main/resources",
+    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-08-Persistent/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +127,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources" />
+      <recent name="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/resources" />
@@ -123,13 +136,33 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bytewizard" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bytewizard.config" />
+      <recent name="com.bytewizard" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (4)">
+  <component name="RunManager" selected="Spring Boot.Application (6)">
+    <configuration name="RedisConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial-08-Persistent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytewizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bytewizard" />
+      <option name="MAIN_CLASS_NAME" value="com.bytewizard.RedisConnectionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="configTest.compareDashScopeApis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-01-HelloWorld" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bytewizard.*" />
+          <option name="PATTERN" value="com.bytewizard.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,15 +174,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial-02-ollama" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial-03-ChatModelChatClient" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bytewizard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,6 +214,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial-07-StructuredOutput" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial-08-Persistent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial-01-HelloWorld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
@@ -202,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisConnectionTest.test" />
         <item itemvalue="Spring Boot.Application (4)" />
         <item itemvalue="Spring Boot.Application (3)" />
         <item itemvalue="Spring Boot.application" />
         <item itemvalue="JUnit.configTest.compareDashScopeApis" />
-        <item itemvalue="Spring Boot.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +276,7 @@
       <workItem from="1771571574475" duration="2037000" />
       <workItem from="1771573633622" duration="198000" />
       <workItem from="1771573998337" duration="3032000" />
-      <workItem from="1771640966925" duration="19232000" />
+      <workItem from="1771640966925" duration="28862000" />
     </task>
     <servers />
   </component>

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tutorial-07-StructuredOutput" />
+        <module name="tutorial-08-Persistent" />
+        <module name="tutorial-05-ChatPrompt" />
+        <module name="tutorial-02-ollama" />
         <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-06-PromptTemplate" />
         <module name="tutorial-04-StreamingOutput" />
         <module name="tutorial-01-HelloWorld" />
-        <module name="tutorial-05-ChatPrompt" />
-        <module name="tutorial-02-ollama" />
       </profile>
     </annotationProcessing>
   </component>

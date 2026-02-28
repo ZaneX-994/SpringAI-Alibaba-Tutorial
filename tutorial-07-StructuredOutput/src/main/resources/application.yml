@@ -1,0 +1,18 @@
+server:
+  port: 8007
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-07-StructuredOutput
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+
+
