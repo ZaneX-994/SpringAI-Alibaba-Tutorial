@@ -13,9 +13,13 @@
         <module name="tutorial-02-ollama" />
         <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-06-PromptTemplate" />
+        <module name="tutorial-09-Text2Image" />
         <module name="tutorial-04-StreamingOutput" />
         <module name="tutorial-01-HelloWorld" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tutorial-09-TextImage" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

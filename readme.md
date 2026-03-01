@@ -13,6 +13,8 @@ SpringAIAlibaba-Tutorial/               # 父工程
 ├── tutorial-04-StreamingOutput/
 ├── tutorial-05-ChatPrompt/
 ├── tutorial-06-PromptTemplate/
+├── tutorial-07-StructuredOutput/
+├── tutorial-08-Persistent/
 ├── 后续添加更多模块...
 └── README.md                           # 项目说明文档
 ````

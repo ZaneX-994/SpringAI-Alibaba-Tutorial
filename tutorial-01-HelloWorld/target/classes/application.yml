@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: SSA-01-HelloWorld
+    name: SAA-01-HelloWorld
 
   # SpringAIAlibaba config
   ai:

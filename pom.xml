@@ -19,6 +19,7 @@
         <module>tutorial-06-PromptTemplate</module>
         <module>tutorial-07-StructuredOutput</module>
         <module>tutorial-08-Persistent</module>
+        <module>tutorial-09-Text2Image</module>
     </modules>
 
 

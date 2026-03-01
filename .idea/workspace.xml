@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/controller/StructuredOutputController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/records/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/java/com/bytewizard/records/StudentRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/ConfigPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/RedisMemoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/controller/ChatMemory4RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/test/java/com/bytewizard/RedisConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-09-Text2Image/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-09-Text2Image/src/main/java/com/bytewizard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-09-Text2Image/src/main/java/com/bytewizard/controller/Text2ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-09-Text2Image/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-01-HelloWorld/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-01-HelloWorld/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-02-ollama/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-02-ollama/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/target/classes/com/bytewizard/config/SaaLLMConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/target/classes/com/bytewizard/config/SaaLLMConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-04-StreamingOutput/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-04-StreamingOutput/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-05-ChatPrompt/target/classes/com/bytewizard/controller/PromptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-05-ChatPrompt/target/classes/com/bytewizard/controller/PromptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-06-PromptTemplate/target/classes/com/bytewizard/controller/PromptTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-06-PromptTemplate/target/classes/com/bytewizard/controller/PromptTemplateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/SaaLLMConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/SaaLLMConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/controller/ChatMemory4RedisController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/controller/ChatMemory4RedisController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/controller/ChatMemory4RedisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/controller/ChatMemory4RedisController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,51 +88,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "JUnit.RedisConnectionTest.test.executor": "Run",
-    "JUnit.configTest.compareDashScopeApis.executor": "Run",
-    "JUnit.configTest.contextLoads.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Application (1).executor": "Run",
-    "Spring Boot.Application (2).executor": "Run",
-    "Spring Boot.Application (3).executor": "Run",
-    "Spring Boot.Application (4).executor": "Run",
-    "Spring Boot.Application (6).executor": "Run",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.application.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-08-Persistent/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisConnectionTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.configTest.compareDashScopeApis.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.configTest.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (3).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (4).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (6).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application (8).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-09-Text2Image/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-09-Text2Image/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-07-StructuredOutput/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-06-PromptTemplate/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-05-ChatPrompt/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tutorial-03-ChatModelChatClient/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-09-Text2Image" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bytewizard" />
@@ -141,7 +149,7 @@
       <recent name="com.bytewizard" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (6)">
+  <component name="RunManager" selected="Spring Boot.Application (8)">
     <configuration name="RedisConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-08-Persistent" />
       <extension name="coverage">
@@ -228,8 +236,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Application (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial-01-HelloWorld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tutorial-09-Text2Image" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,6 +263,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.configTest.compareDashScopeApis" />
+      <item itemvalue="JUnit.RedisConnectionTest.test" />
+      <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (5)" />
+      <item itemvalue="Spring Boot.Application (6)" />
+      <item itemvalue="Spring Boot.Application (7)" />
+      <item itemvalue="Spring Boot.application" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Application (4)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RedisConnectionTest.test" />
@@ -276,7 +304,11 @@
       <workItem from="1771571574475" duration="2037000" />
       <workItem from="1771573633622" duration="198000" />
       <workItem from="1771573998337" duration="3032000" />
-      <workItem from="1771640966925" duration="28862000" />
+      <workItem from="1771640966925" duration="29997000" />
+      <workItem from="1772284971837" duration="379000" />
+      <workItem from="1772285432735" duration="2472000" />
+      <workItem from="1772365440075" duration="1486000" />
+      <workItem from="1772366940296" duration="1072000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,21 @@
+server:
+  port: 8009
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-09-Text2Image
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+
+
+
+
+
