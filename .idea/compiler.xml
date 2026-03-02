@@ -16,12 +16,14 @@
         <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-06-PromptTemplate" />
         <module name="tutorial-09-Text2Image" />
+        <module name="tutorial-12-RAG4AIOps" />
         <module name="tutorial-04-StreamingOutput" />
         <module name="tutorial-01-HelloWorld" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tutorial-09-TextImage" target="21" />
+      <module name="tutorial-11-RAG4AIOps" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

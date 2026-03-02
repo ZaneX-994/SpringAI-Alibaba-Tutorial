@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial-11-Embed2Vector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-11-Embed2Vector/src/main/java/com/bytewizard/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-11-Embed2Vector/src/main/java/com/bytewizard/controller/Embed2VectorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial-11-Embed2Vector/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/config/InitVectorDatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/config/SaaLLMConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/controller/RagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/resources/document/ops.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
@@ -95,6 +100,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application (1).executor": "Run",
     "Spring Boot.Application (10).executor": "Run",
+    "Spring Boot.Application (11).executor": "Run",
     "Spring Boot.Application (2).executor": "Run",
     "Spring Boot.Application (3).executor": "Run",
     "Spring Boot.Application (4).executor": "Run",
@@ -104,7 +110,7 @@
     "Spring Boot.application.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-11-Embed2Vector/src/main/resources",
+    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/tutorial-11-RAG4AIOps/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,11 +129,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-11-RAG4AIOps/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-11-Embed2Vector/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-11-Embed2Vector/src/main/java" />
       <recent name="$PROJECT_DIR$/tutorial-10-Text2Voice/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-09-Text2Image/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tutorial-10-Text2Voice/src/main/resources/voice" />
@@ -156,13 +162,14 @@
           <value>
             <map>
               <entry key="Application (10)" value="STOPPED" />
+              <entry key="Application (11)" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (10)">
+  <component name="RunManager" selected="Spring Boot.Application (11)">
     <configuration name="RedisConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-08-Persistent" />
       <extension name="coverage">
@@ -197,6 +204,13 @@
     </configuration>
     <configuration name="Application (10)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial-11-Embed2Vector" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (11)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial-12-RAG4AIOps" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,6 +314,7 @@
     <list>
       <item itemvalue="JUnit.configTest.compareDashScopeApis" />
       <item itemvalue="JUnit.RedisConnectionTest.test" />
+      <item itemvalue="Spring Boot.Application (11)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (10)" />
       <item itemvalue="Spring Boot.Application (9)" />
@@ -346,7 +361,8 @@
       <workItem from="1772285432735" duration="2472000" />
       <workItem from="1772365440075" duration="1486000" />
       <workItem from="1772366940296" duration="1891000" />
-      <workItem from="1772426723134" duration="5851000" />
+      <workItem from="1772426723134" duration="8155000" />
+      <workItem from="1772439006691" duration="463000" />
     </task>
     <servers />
   </component>

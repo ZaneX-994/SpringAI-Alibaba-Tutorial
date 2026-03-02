@@ -1,0 +1,37 @@
+server:
+  port: 8012
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-12-RAG4AIOps
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+      # 设置chat和embedding模型
+      chat:
+        options:
+          model: qwen-plus
+      embedding:
+        options:
+          model: text-embedding-v4
+    # redis stack
+    vectorstore:
+      redis:
+        initialize-schema: true
+        index-name: bytewizard-index
+        prefix: bytewizard-prefix
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+
+
