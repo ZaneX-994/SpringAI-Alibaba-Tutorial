@@ -1,0 +1,19 @@
+server:
+  port: 8010
+
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: SAA-10-Text2Voice
+
+  ai:
+    dashscope:
+      api-key: ${aliQwen_key}
+
+
+
