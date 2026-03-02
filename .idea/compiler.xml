@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tutorial-10-Text2Voice" />
         <module name="tutorial-07-StructuredOutput" />
+        <module name="tutorial-11-Embed2Vector" />
         <module name="tutorial-08-Persistent" />
         <module name="tutorial-05-ChatPrompt" />
         <module name="tutorial-02-ollama" />

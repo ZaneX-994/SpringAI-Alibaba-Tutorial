@@ -21,6 +21,7 @@
         <module>tutorial-08-Persistent</module>
         <module>tutorial-09-Text2Image</module>
         <module>tutorial-10-Text2Voice</module>
+        <module>tutorial-11-Embed2Vector</module>
     </modules>
 
 
