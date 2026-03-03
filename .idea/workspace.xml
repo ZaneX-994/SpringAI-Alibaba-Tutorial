@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/AIWorkHelperApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/config/InitVectorDatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/src/main/java/com/bytewizard/config/InitVectorDatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/target/classes/com/bytewizard/config/InitVectorDatabaseConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/target/classes/com/bytewizard/config/InitVectorDatabaseConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-01-HelloWorld/target/test-classes/com/bytewizard/configTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-07-StructuredOutput/target/classes/com/bytewizard/records/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-07-StructuredOutput/target/classes/com/bytewizard/records/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/ConfigPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/test-classes/com/bytewizard/RedisConnectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-09-Text2Image/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-09-Text2Image/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-10-Text2Voice/target/classes/com/bytewizard/controller/Text2VoiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-10-Text2Voice/target/classes/com/bytewizard/controller/Text2VoiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-11-Embed2Vector/target/classes/com/bytewizard/controller/Embed2VectorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-11-Embed2Vector/target/classes/com/bytewizard/controller/Embed2VectorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/target/classes/com/bytewizard/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-12-RAG4AIOps/target/classes/com/bytewizard/config/RedisConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -132,6 +159,9 @@
       <recent name="com.bytewizard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bytewizard.dto.response" />
+      <recent name="com.bytewizard.dto.request" />
+      <recent name="com.bytewizard.entity" />
       <recent name="com.bytewizard.config" />
       <recent name="com.bytewizard" />
     </key>
@@ -152,13 +182,14 @@
             <map>
               <entry key="Application (10)" value="STOPPED" />
               <entry key="Application (11)" value="STOPPED" />
+              <entry key="Application (6)" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (11)">
+  <component name="RunManager" selected="Spring Boot.Application (6)">
     <configuration name="RedisConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-08-Persistent" />
       <extension name="coverage">
@@ -335,6 +366,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="" />
@@ -351,7 +385,7 @@
       <workItem from="1772365440075" duration="1486000" />
       <workItem from="1772366940296" duration="1891000" />
       <workItem from="1772426723134" duration="8155000" />
-      <workItem from="1772439006691" duration="1017000" />
+      <workItem from="1772439006691" duration="6382000" />
     </task>
     <servers />
   </component>

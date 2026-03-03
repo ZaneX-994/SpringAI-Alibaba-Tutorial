@@ -7,17 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tutorial-10-Text2Voice" />
-        <module name="tutorial-07-StructuredOutput" />
         <module name="tutorial-11-Embed2Vector" />
         <module name="tutorial-08-Persistent" />
-        <module name="tutorial-05-ChatPrompt" />
         <module name="tutorial-02-ollama" />
-        <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-06-PromptTemplate" />
         <module name="tutorial-09-Text2Image" />
-        <module name="tutorial-12-RAG4AIOps" />
         <module name="tutorial-04-StreamingOutput" />
+        <module name="tutorial-10-Text2Voice" />
+        <module name="tutorial-07-StructuredOutput" />
+        <module name="AIWorkHelper" />
+        <module name="tutorial-05-ChatPrompt" />
+        <module name="tutorial-03-ChatModelChatClient" />
+        <module name="tutorial-12-RAG4AIOps" />
         <module name="tutorial-01-HelloWorld" />
       </profile>
     </annotationProcessing>
