@@ -1,8 +1,11 @@
 package com.bytewizard.service;
 
 import com.bytewizard.dto.request.LoginRequest;
+import com.bytewizard.dto.request.UpdatePasswordRequest;
+import com.bytewizard.dto.request.UserListRequest;
 import com.bytewizard.dto.request.UserRequest;
 import com.bytewizard.dto.response.LoginResponse;
+import com.bytewizard.dto.response.UserListResponse;
 import com.bytewizard.dto.response.UserResponse;
 
 public interface UserService {

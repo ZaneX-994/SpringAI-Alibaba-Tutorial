@@ -24,6 +24,7 @@
         <module>tutorial-11-Embed2Vector</module>
         <module>tutorial-12-RAG4AIOps</module>
         <module>AIWorkHelper</module>
+        <module>tutorial-13-ToolCalling</module>
     </modules>
 
 
