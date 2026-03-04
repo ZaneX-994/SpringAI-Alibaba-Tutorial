@@ -20,6 +20,7 @@ SpringAIAlibaba-Tutorial/               # 父工程
 ├── tutorial-11-Embed2Vector/
 ├── tutorial-12-RAG4AIOps/
 ├── tutorial-13-ToolCalling/
+├── tutorial-14-LocalMcpServer/
 ├── 后续添加更多模块...
 └── README.md                           # 项目说明文档
 ````

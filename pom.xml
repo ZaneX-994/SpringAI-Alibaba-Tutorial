@@ -25,6 +25,8 @@
         <module>tutorial-12-RAG4AIOps</module>
         <module>AIWorkHelper</module>
         <module>tutorial-13-ToolCalling</module>
+        <module>tutorial-14-LocalMcpServer</module>
+        <module>tutorial-15-LocalMcpClient</module>
     </modules>
 
 
@@ -34,7 +36,7 @@
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>3.4.5</spring-boot.version>
+        <spring-boot.version>3.5.5</spring-boot.version>
         <spring-ai.version>1.0.0</spring-ai.version>
         <SprintAIAlibaba.version>1.0.0.2</SprintAIAlibaba.version>
     </properties>
