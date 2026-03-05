@@ -7,7 +7,7 @@
         "@baidumap/mcp-server-baidu-map"
       ],
       "env": {
-        "BAIDU_MAP_API_KEY": "3BNWQ05Sr5grBaPPZcSxwblkrtjmsDGg"
+        "BAIDU_MAP_API_KEY": "xxx"
       }
     }
   }

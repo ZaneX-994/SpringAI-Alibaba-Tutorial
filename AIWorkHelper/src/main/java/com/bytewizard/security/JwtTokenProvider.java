@@ -1,7 +1,7 @@
 package com.bytewizard.security;
 
 import com.bytewizard.config.JwtProperties;
-import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
@@ -69,8 +69,69 @@ public class JwtTokenProvider {
     }
 
     /**
+     * 从Token中获取用户ID
+     * @param token JWT Token
+     * @return 用户ID
+     */
+    public String getUserIdFromToken(String token) {
+        Claims claims = parseToken(token);
+        if (claims == null) {
+            return null;
+        }
+        return claims.get(IDENTIFY, String.class);
+    }
+
+    /**
+     * 解析Token获取Claims
+     * @param token JWT Token
+     * @return Claims
+     */
+    private Claims parseToken(String token) {
+        return Jwts.parser()
+                .verifyWith(secretKey)
+                .build()
+                .parseSignedClaims(token)
+                .getPayload();
+    }
+
+    /**
+     * 验证Token是否有效
+     * @param token JWT Token
+     * @return 是否有效
+     */
+    public boolean validateToken(String token) {
+        try {
+            parseToken(token);
+            return true;
+        } catch (SecurityException e) {
+            log.error("Invalid JWT signature: {}", e.getMessage());
+        } catch (MalformedJwtException e) {
+            log.error("Invalid JWT token: {}", e.getMessage());
+        } catch (ExpiredJwtException e) {
+            log.error("JWT token is expired: {}", e.getMessage());
+        } catch (UnsupportedJwtException e) {
+            log.error("JWT token is unsupported: {}", e.getMessage());
+        } catch (IllegalArgumentException e) {
+            log.error("JWT claims string is empty: {}", e.getMessage());
+        }
+        return false;
+    }
+
+
+    /**
+     * 从HTTP Authorization头中提取Token
+     * @param bearerToken Authorization头的值 (例如: "Bearer eyJhbGc...")
+     * @return 纯Token字符串
+     */
+    public String resolveToken(String bearerToken) {
+        if (bearerToken != null && bearerToken.startsWith(BEARER_PREFIX)) {
+            return bearerToken.substring(BEARER_PREFIX.length());
+        }
+        return bearerToken;
+    }
+
+    /**
      * 获取Token过期时间戳
-     *
      * @return 过期时间戳（秒）
      */
     public Long getExpirationTime() {

@@ -21,6 +21,8 @@ SpringAIAlibaba-Tutorial/               # 父工程
 ├── tutorial-12-RAG4AIOps/
 ├── tutorial-13-ToolCalling/
 ├── tutorial-14-LocalMcpServer/
+├── tutorial-15-LocalMcpClient/
+├── tutorial-16-ClientCallBaiduMcpServer/
 ├── 后续添加更多模块...
 └── README.md                           # 项目说明文档
 ````

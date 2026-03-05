@@ -12,12 +12,18 @@ import com.bytewizard.exception.BusinessException;
 import com.bytewizard.repository.UserRepository;
 import com.bytewizard.security.JwtTokenProvider;
 import com.bytewizard.service.UserService;
+import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -30,13 +36,13 @@ public class UserServiceImpl implements UserService {
     private final JwtTokenProvider jwtTokenProvider;
 
 
-
     /**
      * 系统启动时初始化管理员用户
      */
+    @PostConstruct
     @Override
     public void initAdminUser() {
-
+        System.out.println("initAdminUser");
         // 检查是否已存在管理员用户
         if (userRepository.findByIsAdminTrue().isPresent()) {
             log.info("Admin user already exists");
@@ -111,6 +117,7 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public void create(UserRequest request) {
+
         // 检查用户名是否已存在
         if (userRepository.findByName(request.getName()).isPresent()) {
             throw new BusinessException("用户已存在");
@@ -173,19 +180,103 @@ public class UserServiceImpl implements UserService {
         userRepository.deleteById(id);
     }
 
+    /**
+     * 用户列表查询
+     */
     @Override
     public UserListResponse list(UserListRequest request) {
+        List<User> users;
+        long count;
+
+        // 根据条件查询
+        if (request.getIds() != null && !request.getIds().isEmpty()) {
+            // 按ID列表查询
+            users = userRepository.findByIdIn(request.getIds());
+            count = users.size();
+        } else if (StringUtils.hasText(request.getName())) {
+            // 按用户名查询
+            users = List.of(userRepository.findByName(request.getName())
+                    .orElseThrow(() -> new BusinessException("用户不存在")));
+            count = 1;
+        } else {
+            // 分页查询所有用户
+            Pageable pageable = PageRequest.of(
+                    request.getPage() - 1,
+                    request.getCount()
+            );
+            var page = userRepository.findAll(pageable);
+            users = page.getContent();
+            count = page.getTotalElements();
+        }
+
+        // 转换为响应对象
+        List<UserResponse> userResponses = users.stream()
+                .map(this::convertToResponse)
+                .collect(Collectors.toList());
+
+        return UserListResponse.builder()
+                .count(count)
+                .data(userResponses)
+                .build();
+    }
+
+    /**
+     * 修改密码
+     */
+    @Override
+    public void updatePassword(UpdatePasswordRequest request) {
+        // 查找用户
+        User user = userRepository.findById(request.getId())
+                .orElseThrow(() -> new BusinessException("用户不存在"));
+
+        // 验证原密码
+        if (!passwordEncoder.matches(request.getOldPwd(), user.getPassword())) {
+            throw new BusinessException("原密码错误");
+        }
+
+        // 更新密码
+        user.setPassword(passwordEncoder.encode(request.getNewPwd()));
+        user.setUpdateAt(System.currentTimeMillis() / 1000);
+
+        userRepository.save(user);
+    }
+
+    /**
+     * 根据名字查找用户Id
+     * */
+    @Override
+    public String getUserIdByName(String name) {
+
+        if (name == null || name.trim().isEmpty()) {
+            return null;
+        }
+
+        log.debug("根据用户名查询ID: name={}", name);
+
+        Optional<User> userOptional = userRepository.findByName(name.trim());
+        if (userOptional.isPresent()) {
+            User user = userOptional.get();
+            log.debug("找到用户: name={}, id={}", name, user.getId());
+            return user.getId();
+        }
+
+        log.debug("未找到用户: name={}", name);
+
         return null;
     }
 
-    @Override
-    public void updatePassword(UpdatePasswordRequest request) {
+    /**
+     * 转换User实体为UserResponse
+     */
+    private UserResponse convertToResponse(User user) {
 
-    }
-
-
-    @Override
-    public String getUserIdByName(String name) {
-        return "";
+        return UserResponse.builder()
+                .id(user.getId())
+                .name(user.getName())
+                .status(user.getStatus())
+                .isAdmin(user.getIsAdmin())
+                .createAt(user.getCreateAt())
+                .updateAt(user.getUpdateAt())
+                .build();
     }
 }

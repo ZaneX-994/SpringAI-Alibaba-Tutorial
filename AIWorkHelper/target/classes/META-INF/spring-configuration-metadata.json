@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "jwt",
+      "type": "com.bytewizard.config.JwtProperties",
+      "sourceType": "com.bytewizard.config.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.expire",
+      "type": "java.lang.Long",
+      "description": "Token过期时间（秒）",
+      "sourceType": "com.bytewizard.config.JwtProperties"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT签名密钥",
+      "sourceType": "com.bytewizard.config.JwtProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
