@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="tutorial-11-Embed2Vector" />
         <module name="tutorial-08-Persistent" />
+        <module name="tutorial-16-ClientCallBaiduMcpServer" />
         <module name="tutorial-02-ollama" />
         <module name="tutorial-14-LocalMcpServer" />
         <module name="tutorial-06-PromptTemplate" />
