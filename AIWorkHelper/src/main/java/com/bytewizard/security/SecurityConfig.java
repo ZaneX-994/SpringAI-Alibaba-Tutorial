@@ -11,6 +11,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -47,9 +48,27 @@ public class SecurityConfig {
                 // 2. 配置跨域
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
 
-                // 3. ✅ 放行所有请求
+                // 3. 配置Session管理为无状态（使用JWT不需要Session）
+                .sessionManagement(session ->
+                        session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                )
+
+                // 4. 配置授权规则
                 .authorizeHttpRequests(auth -> auth
-                        .anyRequest().permitAll()  // 允许所有请求，无需认证
+                        // 登录接口允许匿名访问
+                        .requestMatchers("/v1/user/login").permitAll()
+
+                        // WebSocket连接允许访问（在WebSocket层面进行Token验证）
+                        .requestMatchers("/ws/**").permitAll()
+
+                        // 健康检查接口允许访问
+                        .requestMatchers("/actuator/**").permitAll()
+
+                        // 知识库诊断接口允许访问
+                        .requestMatchers("/api/knowledge/diag/**").permitAll()
+
+                        // 其他所有请求都需要认证
+                        .anyRequest().authenticated()
                 )
 
                 // 4. 配置会话管理
@@ -57,9 +76,8 @@ public class SecurityConfig {
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
 
-        // 5. 如果需要，可以暂时移除 JWT 过滤器
-        // .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
-        ;
+                // 5. 添加JWT认证过滤器
+                .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
