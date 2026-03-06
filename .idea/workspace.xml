@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/WebSocketHandshakeInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +403,7 @@
       <workItem from="1772439006691" duration="12868000" />
       <workItem from="1772628223781" duration="310000" />
       <workItem from="1772628885346" duration="3740000" />
-      <workItem from="1772676519680" duration="12763000" />
+      <workItem from="1772676519680" duration="13799000" />
     </task>
     <servers />
   </component>
