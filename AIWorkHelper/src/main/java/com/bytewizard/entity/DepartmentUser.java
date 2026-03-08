@@ -2,34 +2,29 @@ package com.bytewizard.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.index.CompoundIndex;
-import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 /**
- * 群聊成员关联实体类
- * 用于管理群聊的成员关系,支持多个群聊的成员管理
+ * 后端，AI知识进阶，后端面试场景题大全：https://golangstar.cn/
+ * 部门用户关联实体类
  */
 @Data
-@Document(collection = "group_member")
-@CompoundIndex(name = "group_user_idx", def = "{'groupId': 1, 'userId': 1}", unique = true)
-public class GroupMember {
+@Document(collection = "department_user")
+public class DepartmentUser {
 
     @Id
     private String id;
 
     /**
-     * 群ID (conversationId)
+     * 部门ID
      */
-    @Indexed
-    @Field("groupId")
-    private String groupId;
+    @Field("depId")
+    private String depId;
 
     /**
      * 用户ID
      */
-    @Indexed
     @Field("userId")
     private String userId;
 

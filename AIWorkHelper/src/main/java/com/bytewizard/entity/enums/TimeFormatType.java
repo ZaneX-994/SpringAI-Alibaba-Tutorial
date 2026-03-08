@@ -3,28 +3,28 @@ package com.bytewizard.entity.enums;
 import lombok.Getter;
 
 /**
- * 聊天类型枚举
- * 1.群聊，2.私聊
+ * 时间格式类型枚举
+ * 1.小时，2.天
  */
 @Getter
-public enum ChatType {
-    GROUP(1, "群聊"),
-    SINGLE(2, "私聊");
+public enum TimeFormatType {
+    HOUR(1, "小时"),
+    DAY(2, "天");
 
     private final int value;
     private final String description;
 
-    ChatType(int value, String description) {
+    TimeFormatType(int value, String description) {
         this.value = value;
         this.description = description;
     }
 
-    public static ChatType fromValue(int value) {
-        for (ChatType type : values()) {
+    public static TimeFormatType fromValue(int value) {
+        for (TimeFormatType type : values()) {
             if (type.value == value) {
                 return type;
             }
         }
-        return GROUP;
+        return HOUR;
     }
 }

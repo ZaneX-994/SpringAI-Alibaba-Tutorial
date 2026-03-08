@@ -1,7 +1,3 @@
-/**
- * @author: 公众号：IT杨秀才
- * @doc:后端，AI知识进阶，后端面试场景题大全：https://golangstar.cn/
- */
 package com.bytewizard.entity.enums;
 
 import lombok.Getter;

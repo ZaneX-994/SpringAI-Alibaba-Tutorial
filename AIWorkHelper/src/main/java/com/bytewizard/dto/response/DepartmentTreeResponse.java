@@ -8,21 +8,16 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 /**
- * 待办列表响应
+ * 部门树结构响应
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TodoListResponse {
+public class DepartmentTreeResponse {
 
     /**
-     * 总记录数
+     * 根部门列表（树形结构）
      */
-    private Long count;
-
-    /**
-     * 待办列表
-     */
-    private List<TodoResponse> data;
+    private List<DepartmentResponse> child;
 }

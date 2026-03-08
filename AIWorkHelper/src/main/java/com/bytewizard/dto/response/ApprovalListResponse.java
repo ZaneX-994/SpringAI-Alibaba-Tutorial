@@ -8,13 +8,13 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 /**
- * 待办列表响应
+ * 审批列表响应
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TodoListResponse {
+public class ApprovalListResponse {
 
     /**
      * 总记录数
@@ -22,7 +22,7 @@ public class TodoListResponse {
     private Long count;
 
     /**
-     * 待办列表
+     * 审批列表
      */
-    private List<TodoResponse> data;
+    private List<ApprovalListItemResponse> data;
 }
