@@ -6,18 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/AIWorkHelper/Frontend/aiworkhelper-web/pics/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/websocket/ChatMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/ChatLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/GroupMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ChatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/ChatLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/GroupMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/ChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/ChatServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/GroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/ai/AgentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/config/ChatClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/TodoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/FinishTodoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoListRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRecordRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoInfoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoRecordResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserTodoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Todo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/TodoRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/UserTodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TodoStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/TodoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/TodoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/TodoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +38,8 @@
       <list>
         <option value="Record" />
         <option value="Exception" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,11 +159,11 @@
       <recent name="com.bytewizard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bytewizard.entity" />
-      <recent name="com.bytewizard.dto" />
       <recent name="com.bytewizard.entity.enums" />
-      <recent name="com.bytewizard.dto.websocket" />
-      <recent name="com.bytewizard.controller" />
+      <recent name="com.bytewizard.entity" />
+      <recent name="com.bytewizard.repository" />
+      <recent name="com.bytewizard.dto.request" />
+      <recent name="com.bytewizard.dto.response" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +422,7 @@
       <workItem from="1772439006691" duration="12868000" />
       <workItem from="1772628223781" duration="310000" />
       <workItem from="1772628885346" duration="3740000" />
-      <workItem from="1772676519680" duration="19550000" />
+      <workItem from="1772676519680" duration="21780000" />
     </task>
     <servers />
   </component>
