@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/WebSocketHandshakeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/Frontend/aiworkhelper-web/pics/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/websocket/ChatMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/ChatLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/GroupMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ChatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/ChatLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/GroupMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/ChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/ChatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/GroupServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Interface" />
         <option value="Exception" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,6 +142,7 @@
       <recent name="$PROJECT_DIR$/tutorial-11-RAG4AIOps/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AIWorkHelper/Frontend" />
       <recent name="$PROJECT_DIR$/tutorial-10-Text2Voice/src/main/resources/voice" />
       <recent name="$PROJECT_DIR$/tutorial-09-Text2Image" />
     </key>
@@ -140,11 +150,11 @@
       <recent name="com.bytewizard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bytewizard.common" />
-      <recent name="com.bytewizard.dto.request" />
-      <recent name="com.bytewizard.dto.response" />
       <recent name="com.bytewizard.entity" />
-      <recent name="com.bytewizard.config" />
+      <recent name="com.bytewizard.dto" />
+      <recent name="com.bytewizard.entity.enums" />
+      <recent name="com.bytewizard.dto.websocket" />
+      <recent name="com.bytewizard.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,7 +413,7 @@
       <workItem from="1772439006691" duration="12868000" />
       <workItem from="1772628223781" duration="310000" />
       <workItem from="1772628885346" duration="3740000" />
-      <workItem from="1772676519680" duration="13799000" />
+      <workItem from="1772676519680" duration="19550000" />
     </task>
     <servers />
   </component>
