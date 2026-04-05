@@ -19,7 +19,6 @@
         <module name="tutorial-07-StructuredOutput" />
         <module name="tutorial-13-ToolCalling" />
         <module name="tutorial-15-LocalMcpClient" />
-        <module name="AIWorkHelper" />
         <module name="tutorial-05-ChatPrompt" />
         <module name="tutorial-03-ChatModelChatClient" />
         <module name="tutorial-12-RAG4AIOps" />
@@ -27,6 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AIWorkHelper" target="21" />
       <module name="tutorial-09-TextImage" target="21" />
       <module name="tutorial-11-RAG4AIOps" target="21" />
     </bytecodeTargetLevel>

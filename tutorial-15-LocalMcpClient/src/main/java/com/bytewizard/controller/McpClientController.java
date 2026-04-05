@@ -16,6 +16,7 @@ public class McpClientController {
 
     @Autowired
     private ChatModel ChatModel;
+
     @Autowired
     private ChatModel chatModel;
 

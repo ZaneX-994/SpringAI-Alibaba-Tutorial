@@ -5,70 +5,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ba94fc-b423-43fb-8d47-c6f8747d1673" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/Frontend/aiworkhelper-web/pics/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/ApprovalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/DepartmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/GroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/AddDepartmentUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/AddGroupMembersRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/ApprovalListRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/ApprovalRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/CreateGroupRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/DepartmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/DisposeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/RemoveDepartmentUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/SetDepartmentUsersRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalListItemResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentTreeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Approval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/DepartmentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/Approver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/GoOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/Leave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/MakeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalOptionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/LeaveType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TimeFormatType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/ApprovalRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/DepartmentUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/ApprovalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/DepartmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/ApprovalServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/ConfigPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/test-classes/com/bytewizard/RedisConnectionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/FinishTodoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/FinishTodoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoListRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoListRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRecordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRecordRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UpdatePasswordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UpdatePasswordRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserListRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserListRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoInfoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoRecordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoRecordResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserListResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserTodoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserTodoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/ChatLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/ChatLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/GroupMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/GroupMember.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/TodoRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/TodoRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/UserTodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/UserTodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ChatType.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ChatType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TodoStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TodoStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/TodoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/TodoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/Frontend/aiworkhelper-web" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/AIWorkHelperApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/ai/AgentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/common/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/config/ChatClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/config/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/ApprovalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/GroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/AddDepartmentUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/AddGroupMembersRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/ApprovalListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/ApprovalRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/CreateGroupRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/DepartmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/DisposeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/FinishTodoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/RemoveDepartmentUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/SetDepartmentUsersRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRecordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/TodoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UpdatePasswordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserListRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/request/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalListItemResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/ApprovalResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentTreeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/DepartmentUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/LoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoRecordResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/TodoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserListResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response/UserTodoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/websocket/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Approval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/ChatLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/DepartmentUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/GroupMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/Todo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/TodoRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/UserTodo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/Approver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/GoOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/Leave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/embeded/MakeCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalOptionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ApprovalType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/ChatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/LeaveType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TimeFormatType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/entity/enums/TodoStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/ApprovalRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/ChatLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/DepartmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/DepartmentUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/GroupMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/TodoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/security/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/ApprovalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/ChatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/DepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/GroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/TodoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/ApprovalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/ChatServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/DepartmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/GroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/TodoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/ChatWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/websocket/WebSocketHandshakeInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/AIWorkHelperApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/common/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/config/JwtProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/request/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/request/UpdatePasswordRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/request/UserListRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/request/UserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/LoginResponse$LoginResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/LoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/UserListResponse$UserListResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/UserListResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/UserResponse$UserResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/dto/response/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/security/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/security/JwtTokenProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/classes/com/bytewizard/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIWorkHelper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/ConfigPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/ConfigPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/RedisMemoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/java/com/bytewizard/config/RedisMemoryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/src/test/java/com/bytewizard/RedisConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/src/test/java/com/bytewizard/RedisConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/RedisMemoryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-08-Persistent/target/classes/com/bytewizard/config/RedisMemoryConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial-15-LocalMcpClient/src/main/java/com/bytewizard/controller/McpClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial-15-LocalMcpClient/src/main/java/com/bytewizard/controller/McpClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +154,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -139,6 +207,7 @@
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.generated-requests | #2.executor": "Run",
     "JUnit.RedisConnectionTest.test.executor": "Run",
+    "JUnit.RedisConnectionTest.test2.executor": "Run",
     "JUnit.configTest.compareDashScopeApis.executor": "Run",
     "JUnit.configTest.contextLoads.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -167,7 +236,7 @@
     "Spring Boot.application.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/AIWorkHelper/src/main/java/com/bytewizard/dto/response",
+    "last_opened_file_path": "/Users/zihang/java/IdeaProjects/SpringAIAlibaba-Tutorial/AIWorkHelper/src/main/java/com/bytewizard/ai",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -178,6 +247,7 @@
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -186,11 +256,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/ai" />
       <recent name="$PROJECT_DIR$/AIWorkHelper/src/main/java/com/bytewizard/dto/response" />
       <recent name="$PROJECT_DIR$/tutorial-16-ClientCallBaiduMcpServer/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-15-LocalMcpClient/src/main/resources" />
       <recent name="$PROJECT_DIR$/tutorial-14-LocalMcpServer/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tutorial-13-ToolCalling/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AIWorkHelper/Frontend" />
@@ -201,11 +271,11 @@
       <recent name="com.bytewizard" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bytewizard.entity.enums" />
-      <recent name="com.bytewizard.entity" />
-      <recent name="com.bytewizard.repository" />
-      <recent name="com.bytewizard.service.impl" />
+      <recent name="com.bytewizard.ai.tools" />
+      <recent name="com.bytewizard.tools" />
+      <recent name="com.bytewizard.config" />
       <recent name="com.bytewizard.service" />
+      <recent name="com.bytewizard.dto.response" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +295,6 @@
               <entry key="AIWorkHelperApplication" value="STOPPED" />
               <entry key="Application (10)" value="STOPPED" />
               <entry key="Application (11)" value="STOPPED" />
-              <entry key="Application (12)" value="STOPPED" />
               <entry key="Application (13)" value="STOPPED" />
               <entry key="Application (14)" value="FAILED" />
               <entry key="Application (15)" value="STOPPED" />
@@ -236,7 +305,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (15)">
+  <component name="RunManager" selected="Spring Boot.Application (6)">
     <configuration name="RedisConnectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial-08-Persistent" />
       <extension name="coverage">
@@ -248,6 +317,22 @@
       <option name="PACKAGE_NAME" value="com.bytewizard" />
       <option name="MAIN_CLASS_NAME" value="com.bytewizard.RedisConnectionTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisConnectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial-08-Persistent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytewizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bytewizard" />
+      <option name="MAIN_CLASS_NAME" value="com.bytewizard.RedisConnectionTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -274,15 +359,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (12)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application (12)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial-13-ToolCalling" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bytewizard.Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bytewizard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -404,33 +483,34 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RedisConnectionTest.test2" />
       <item itemvalue="JUnit.RedisConnectionTest.test" />
-      <item itemvalue="Spring Boot.Application (4)" />
+      <item itemvalue="Spring Boot.Application (12)" />
       <item itemvalue="Spring Boot.AIWorkHelperApplication" />
-      <item itemvalue="Spring Boot.Application (11)" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (10)" />
-      <item itemvalue="Spring Boot.Application (9)" />
-      <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Spring Boot.Application (11)" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Application (4)" />
       <item itemvalue="Spring Boot.Application (5)" />
       <item itemvalue="Spring Boot.Application (6)" />
       <item itemvalue="Spring Boot.Application (7)" />
+      <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Spring Boot.Application (9)" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.application" />
-      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Application (13)" />
       <item itemvalue="Spring Boot.Application (14)" />
       <item itemvalue="Spring Boot.Application (15)" />
-      <item itemvalue="Spring Boot.Application (12)" />
-      <item itemvalue="Spring Boot.Application (13)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisConnectionTest.test" />
+        <item itemvalue="JUnit.RedisConnectionTest.test2" />
         <item itemvalue="Spring Boot.Application (15)" />
         <item itemvalue="Spring Boot.Application (14)" />
         <item itemvalue="Spring Boot.Application (13)" />
-        <item itemvalue="Spring Boot.Application (12)" />
-        <item itemvalue="JUnit.RedisConnectionTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +544,18 @@
       <workItem from="1772439006691" duration="12868000" />
       <workItem from="1772628223781" duration="310000" />
       <workItem from="1772628885346" duration="3740000" />
-      <workItem from="1772676519680" duration="24496000" />
+      <workItem from="1772676519680" duration="32018000" />
+      <workItem from="1773133973612" duration="41000" />
+      <workItem from="1773148874574" duration="721000" />
+      <workItem from="1773388912239" duration="649000" />
+      <workItem from="1773561355599" duration="633000" />
+      <workItem from="1773577585493" duration="40000" />
+      <workItem from="1773732887638" duration="84000" />
+      <workItem from="1773736434764" duration="42000" />
+      <workItem from="1773736553842" duration="16000" />
+      <workItem from="1773736733723" duration="58000" />
+      <workItem from="1775213583110" duration="849000" />
+      <workItem from="1775354618073" duration="1819000" />
     </task>
     <servers />
   </component>

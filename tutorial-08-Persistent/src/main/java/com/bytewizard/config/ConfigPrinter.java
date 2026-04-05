@@ -16,15 +16,10 @@ public class ConfigPrinter implements ApplicationRunner {
     @Value("${spring.data.redis.port:NOT_SET}")
     private String redisPort;
 
-    @Value("${spring.data.redis.password:NOT_SET}")
-    private String redisPassword;
-
     @Override
     public void run(ApplicationArguments args) {
         log.info("=== Redis 配置检查 ===");
         log.info("主机: {}", redisHost);
         log.info("端口: {}", redisPort);
-        log.info("密码长度: {}", redisPassword.length());
-        log.info("密码值: {}", redisPassword.equals("123456") ? "✅ 正确" : "❌ 不正确");
     }
 }

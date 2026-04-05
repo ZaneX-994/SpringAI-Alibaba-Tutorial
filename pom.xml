@@ -23,7 +23,6 @@
         <module>tutorial-10-Text2Voice</module>
         <module>tutorial-11-Embed2Vector</module>
         <module>tutorial-12-RAG4AIOps</module>
-        <module>AIWorkHelper</module>
         <module>tutorial-13-ToolCalling</module>
         <module>tutorial-14-LocalMcpServer</module>
         <module>tutorial-15-LocalMcpClient</module>

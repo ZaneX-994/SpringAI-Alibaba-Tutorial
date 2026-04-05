@@ -15,15 +15,14 @@ public class RedisMemoryConfig {
     @Value("${spring.data.redis.port}")
     private int port;
 
-    @Value("${spring.data.redis.password}")
-    private String password;
+//    @Value("${spring.data.redis.password}")
+//    private String password;
 
     @Bean
     public RedisChatMemoryRepository redisChatMemoryRepository() {
         return RedisChatMemoryRepository.builder()
                 .host(host)
                 .port(port)
-                .password(password)
                 .build();
     }
 
